@@ -56,6 +56,14 @@ ResNet50 | 93.44 | 92.05 | 91.87
 ResNet152 | 93.36 | 91.99 | 91.69
 VGG16 | 92.79 | 90.86 | 91.23
 
+**All the trained networks in each fold can be used by this link: **
+
+https://drive.google.com/open?id=1sc31RQK1tiA7gsgVL0PvudmBrOBn3USi
+
+**The videos of Pesteh-Set are aslod available on:
+
+https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing
+
 # Counting
 
 The second and main phase of our work was counting the number of open-mouth and closed-mouth pistachios in the videos. To do so, first, we used a frame generator to extract the frames of the video, then we fed the frames to the object detector, and finally, we had a list of bounding boxes for each frame.
