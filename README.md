@@ -10,7 +10,7 @@ Pesteh-set is available on https://github.com/mr7495/Pesteh-Set
 
 The main purpose in our paper was to count the open-mouth and closed-mouth pistachios in videos. At the first stage, we have to generate the frames of the video and detect the pistachios in them with RetinaNet.
 
-IWe have separated the dataset into five-folds and allocated 20 percent of the dataset for validation and the rest for the training. After the detection phase, we present the method we used for counting the open-mouth and closed-mouth pistachios. This counting algorithm runs very fast with good accuracy. The general schematic of our work is presented in next fig.
+IWe have separated the dataset into five-folds and allocated 20 percent of the dataset for validation and the rest for the training. After the detection phase, we present the method we used for counting the open-mouth and closed-mouth pistachios. This counting algorithm runs very fast with good accuracy.
 
 <p align="center">
 	<img src="images/graphical_abstract.jpg" alt="photo not available" width="100%" height="70%">
@@ -29,3 +29,22 @@ Fold2 | 339 | 84 | 1610 | 1572 | 383 | 362
 Fold3 | 339 | 84 | 1553 | 1506 | 440 | 428
 Fold4 | 339 | 84 | 1641 | 1575 | 352 | 359
 Fold5 | 336 | 87 | 1568 | 1533 | 425 | 401
+
+**The code for training and evaluating the netwroks is availabe on Pistachio_RetinaNet_Training_&_Evaluating.ipynb**
+
+**All the CSV annotation files along all the images are shared in the pesteh_set folder in this repository.**
+
+Some of the detected images are shown in the next figures.
+
+<img src="/images/detected1.jpg" width="30%"> <img src="/images/detected2.jpg" width="30%">
+<img src="/images/detected3.jpg" width="30%">  <img src="/images/detected4.jpg" width="30%">
+
+The open-mouth and the closed-mouth pistachios could look like each other in many cases like the next figure, and it would be hard to distinguish them even with human eyes. This may be the reason, the made results not be very high.
+
+<p align="center">
+	<img src="images/hard-1.jpg" alt="photo not available" width="100%" height="70%">
+	<br>
+	<em>Some of the hard examples in Pesteh-Set</em>
+</p>
+
+
