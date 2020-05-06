@@ -31,7 +31,7 @@ Fold3 | 339 | 84 | 1553 | 1506 | 440 | 428
 Fold4 | 339 | 84 | 1641 | 1575 | 352 | 359
 Fold5 | 336 | 87 | 1568 | 1533 | 425 | 401
 
-**The code for training and evaluating the netwroks is availabe on Pistachio_RetinaNet_Training_&_Evaluating.ipynb**
+**The code for training and evaluating the netwroks is availabe on [Pistachio_RetinaNet_Training_&_Evaluating](Pistachio_RetinaNet_Training_&_Evaluating.ipynb)**
 
 **All the CSV annotation files along all the images are shared in the pesteh_set folder in this repository.**
 
