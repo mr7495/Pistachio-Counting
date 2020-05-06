@@ -8,6 +8,7 @@ Our introduced methods can be remotely performed by using the videos taken from 
 
 Pesteh-set is available on https://github.com/mr7495/Pesteh-Set
 
+# Detection
 The main purpose in our paper was to count the open-mouth and closed-mouth pistachios in videos. At the first stage, we have to generate the frames of the video and detect the pistachios in them with RetinaNet.
 
 IWe have separated the dataset into five-folds and allocated 20 percent of the dataset for validation and the rest for the training. After the detection phase, we present the method we used for counting the open-mouth and closed-mouth pistachios. This counting algorithm runs very fast with good accuracy.
@@ -54,3 +55,21 @@ Backbone Network  | Recall | F1 score | map
 ResNet50 | 93.44 | 92.05 | 91.87
 ResNet152 | 93.36 | 91.99 | 91.69
 VGG16 | 92.79 | 90.86 | 91.23
+
+# Counting
+
+The second and main phase of our work was counting the number of open-mouth and closed-mouth pistachios in the videos. To do so, first, we used a frame generator to extract the frames of the video, then we fed the frames to the object detector, and finally, we had a list of bounding boxes for each frame.
+
+There were several challenges in this phase. The first challenge was that we wanted to develop a method that could be performed very fast on the CPU. Some of the other ideas may need a GPU; otherwise, the process would become extremely time-consuming. However, our method works very much fast on CPU, even faster than the methods that need to be executed on GPU.
+
+The second challenge was that some of the open-mouth pistachios could show themselves as closed-mouth pistachio in some consecutive frames and then reveal their open part only a few frames.  Moreover, some open-mouth pistachios that are rolling on the transportation line could show their open part several times and then be appeared like closed-mouth pistachios like the next fig.  We had to develop our algorithm somehow to prevent failing because of these challenges. 
+
+Another challenge is to develop the counting method in a way to prevent failure because of false detections or not-detected pistachios that may be affected by the pistachios occlusion.
+
+
+<p align="center">
+	<img src="images/graphical_abstract.jpg" alt="photo not available" width="100%" height="70%">
+	<br>
+	<em>In this figure you can observe that a pistachio can be presented as open-mouth and closed-mouth
+several times while moving.</em>
+</p>
