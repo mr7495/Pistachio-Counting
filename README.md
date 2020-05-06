@@ -23,7 +23,7 @@ The images of the dataset were preprocessed and then resized to 1070×600 pixels
 We trained and validated RetinaNet on 3 different backbones: ResNet50, ResNet152, and VGG16. Transfer learning from the ImageNet pre-trained weights was utilized at the beginning of the training to speed up the network convergence. We also used data augmentation methods to improve the learning efficiency and stop the network from overfitting. The details of each fold are present is the next table.
 
 Fold  | Training Images | Validation Images | Open-mouth Pistachios in Training Set | Closed-mouth Pistachios in Training Set | Open-mouth Pistachios in Validation Set | Closed-mouth Pistachios in Validation Set
------------- | ------------- | ------------- | -------------
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Fold1 | 339 | 84 | 1600 | 1550 | 393 | 384
 Fold2 | 339 | 84 | 1610 | 1572 | 383 | 362
 Fold3 | 339 | 84 | 1553 | 1506 | 440 | 428
