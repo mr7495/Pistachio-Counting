@@ -81,3 +81,16 @@ Another challenge is to develop the counting method in a way to prevent failure 
 	<em>In this figure you can observe that a pistachio can be presented as open-mouth and closed-mouth
 several times while moving.</em>
 </p>
+
+**The developed counter code is accessable in Counter.ipynb file in this repo.**
+**The Full details and explaination of the counter algorithm is presented in the paper**
+
+Here the obtained results of the counter algorithm for all the six videos is provided.
+It must be noticed that here are the results of the trained netwroks in fold1.
+
+Backbone Network  | Ground-Truth Open-Mouth Pistachios | Ground-Truth Closed-Mouth Pistachios  | Correctly Counted Open-Mouth Pistachios | Correctly Counted Closed-Mouth Pistachios | miscounted | Accuracy
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+ResNet50 | 409| 152 | 397 | 145 | 11| 94.75
+ResNet152 | 409| 152 | 386 | 152 | 24 | 91.96
+VGG16 | 409| 152 | 395 | 149 | 37 | 90.96
+
