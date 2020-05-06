@@ -47,4 +47,10 @@ The open-mouth and the closed-mouth pistachios could look like each other in man
 	<em>Some of the hard examples in Pesteh-Set</em>
 </p>
 
+This Table shows the average results between five folds:
 
+Network  | Recall | F1 score | map
+------------ | ------------- | ------------- | -------------
+ResNet50 | 93.44 | 92.05 | 91.87
+ResNet152 | 93.36 | 91.99 | 91.69
+VGG16 | 92.79 | 90.86 | 91.23
