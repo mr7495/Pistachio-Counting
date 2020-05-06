@@ -82,7 +82,7 @@ Another challenge is to develop the counting method in a way to prevent failure 
 several times while moving.</em>
 </p>
 
-**The developed counter code is accessable in Counter.ipynb file in this repo.**
+**The developed counter code is accessable in [Counter.ipynb](Counter.ipynb) file in this repo.**
 **The Full details and explaination of the counter algorithm is presented in the paper**
 
 Here the obtained results of the counter algorithm for all the six videos is provided.
