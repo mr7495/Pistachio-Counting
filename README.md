@@ -56,11 +56,11 @@ ResNet50 | 93.44 | 92.05 | 91.87
 ResNet152 | 93.36 | 91.99 | 91.69
 VGG16 | 92.79 | 90.86 | 91.23
 
-**All the trained networks in each fold can be used by this link: **
+**All the trained networks in each fold can be used by this link:**
 
 https://drive.google.com/open?id=1sc31RQK1tiA7gsgVL0PvudmBrOBn3USi
 
-**The videos of Pesteh-Set are aslod available on:
+**The videos of Pesteh-Set are aslo available on:**
 
 https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing
 
