@@ -9,9 +9,9 @@ Our introduced methods can be remotely performed by using the videos taken from 
 Pesteh-set is available on https://github.com/mr7495/Pesteh-Set
 
 # Detection
-The main purpose in our paper was to count the open-mouth and closed-mouth pistachios in videos. At the first stage, we have to generate the frames of the video and detect the pistachios in them with RetinaNet.
+The main purpose of our paper was to count the open-mouth and closed-mouth pistachios in videos. At the first stage, we have to generate the frames of the video and detect the pistachios in them with RetinaNet.
 
-IWe have separated the dataset into five-folds and allocated 20 percent of the dataset for validation and the rest for the training. After the detection phase, we present the method we used for counting the open-mouth and closed-mouth pistachios. This counting algorithm runs very fast with good accuracy.
+We have separated the dataset into five-folds and allocated 20 percent of the dataset for validation and the rest for the training. After the detection phase, we present the method we used for counting the open-mouth and closed-mouth pistachios. This counting algorithm runs very fast with good accuracy.
 
 <p align="center">
 	<img src="images/graphical_abstract.jpg" alt="photo not available" width="100%" height="70%">
@@ -40,7 +40,7 @@ Some of the detected images are shown in the next figures.
 <img src="images/detect1.jpg" width="30%">  <img src="images/detect3.jpg" width="30%">
 <img src="images/detect4.jpg" width="30%">  <img src="images/detect5.jpg" width="30%">
 
-The open-mouth and the closed-mouth pistachios could look like each other in many cases like the next figure, and it would be hard to distinguish them even with human eyes. This may be the reason, the made results not be very high.
+The open-mouth and the closed-mouth pistachios could look like each other in many cases like the next figure, and it would be hard to distinguish them even with human eyes. This may be the reason; the made results are not very high.
 
 <p align="center">
 	<img src="images/hard-1.jpg" alt="photo not available" width="100%" height="70%">
@@ -85,8 +85,8 @@ several times while moving.</em>
 **The developed counter code is accessable in [Counter.ipynb](Counter.ipynb) file in this repo.**
 **The Full details and explaination of the counter algorithm is presented in the paper**
 
-Here the obtained results of the counter algorithm for all the six videos is provided.
-It must be noticed that here are the results of the trained netwroks in fold1.
+Here the obtained results of the counter algorithm for all the six videos are provided.
+It must be noticed that here are the results of the trained networks in fold1.
 
 Backbone Network  | Ground-Truth Open-Mouth Pistachios | Ground-Truth Closed-Mouth Pistachios  | Correctly Counted Open-Mouth Pistachios | Correctly Counted Closed-Mouth Pistachios | miscounted | Accuracy
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
