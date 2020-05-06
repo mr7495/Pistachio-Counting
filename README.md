@@ -36,8 +36,8 @@ Fold5 | 336 | 87 | 1568 | 1533 | 425 | 401
 
 Some of the detected images are shown in the next figures.
 
-<img src="images/detect1.jpg" width="30%"> <img src="images/detect2.jpg" width="30%">
-<img src="images/detect3.jpg" width="30%">  <img src="images/detect4.jpg" width="30%">
+<img src="images/detect1.jpg" width="30%">  <img src="images/detect3.jpg" width="30%">
+<img src="images/detect4.jpg" width="30%">  <img src="images/detect5.jpg" width="30%">
 
 The open-mouth and the closed-mouth pistachios could look like each other in many cases like the next figure, and it would be hard to distinguish them even with human eyes. This may be the reason, the made results not be very high.
 
