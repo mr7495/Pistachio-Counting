@@ -68,7 +68,7 @@ Another challenge is to develop the counting method in a way to prevent failure 
 
 
 <p align="center">
-	<img src="images/graphical_abstract.jpg" alt="photo not available" width="100%" height="70%">
+	<img src="images/rolling-1.jpg" alt="photo not available" width="100%" height="70%">
 	<br>
 	<em>In this figure you can observe that a pistachio can be presented as open-mouth and closed-mouth
 several times while moving.</em>
