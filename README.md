@@ -33,7 +33,7 @@ Fold5 | 336 | 87 | 1568 | 1533 | 425 | 401
 
 **The code for training and evaluating the netwroks is availabe on [Pistachio_RetinaNet_Training_&_Evaluating](Pistachio_RetinaNet_Training_&_Evaluating.ipynb)**
 
-**All the CSV annotation files along all the images are shared in the pesteh_set folder in this repository.**
+**All the CSV annotation files along all the images are shared in the [pesteh_set folder](pesteh_set) in this repository.**
 
 Some of the detected images are shown in the next figures.
 
