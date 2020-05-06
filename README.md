@@ -94,3 +94,4 @@ ResNet50 | 409| 152 | 397 | 145 | 11| 94.75
 ResNet152 | 409| 152 | 386 | 152 | 24 | 91.96
 VGG16 | 409| 152 | 395 | 149 | 37 | 90.96
 
+You can contact the developer by this email: mr7495@yahoo.com
