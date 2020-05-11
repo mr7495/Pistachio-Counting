@@ -97,4 +97,15 @@ VGG16 | 409| 152 | 395 | 149 | 37 | 90.96
 **The paper is published as a pre-print on:**<br /> 
 https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
 
+If you find our work useful, you can cite it by:
+```@misc{rahimzadeh2020introduction,
+    title={Introduction of a new Dataset and Method for Detecting and Counting the Pistachios based on Deep Learning},
+    author={Mohammad Rahimzadeh and Abolfazl Attar},
+    year={2020},
+    eprint={2005.03990},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
 You can contact the developer by this email: mr7495@yahoo.com
