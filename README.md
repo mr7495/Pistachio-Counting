@@ -60,9 +60,10 @@ VGG16 | 92.79 | 90.86 | 91.23
 
 https://drive.google.com/open?id=1sc31RQK1tiA7gsgVL0PvudmBrOBn3USi
 
-**The videos of Pesteh-Set are aslo available on:**
+**The videos of Pesteh-Set are aslo available on Google Drive and Mendeley:**
 
-https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing
+https://drive.google.com/drive/folders/1ojq1maRM82o3Ee4cOUelNFKqTXda_ovs?usp=sharing<br /> 
+https://data.mendeley.com/datasets/45hs5ht6k3/2
 
 # Counting
 
