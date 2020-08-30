@@ -96,9 +96,9 @@ ResNet152 | 409| 152 | 386 | 152 | 24 | 91.96
 VGG16 | 409| 152 | 395 | 149 | 37 | 90.96
 
 **The paper is published as a pre-print on:**<br /> 
-1- https://arxiv.org/abs/2005.03990
+https://arxiv.org/abs/2005.03990
 
-2- https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
+https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
 
 If you find our work useful, you can cite it by:
 ```
