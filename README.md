@@ -8,6 +8,12 @@ Our introduced methods can be remotely performed by using the videos taken from 
 
 Pesteh-set is available on https://github.com/mr7495/Pesteh-Set
 
+**Working Environment:**
+```
+Tensorflow: 1.15
+Keras: 2.1
+```
+
 # Detection
 The main purpose of our paper was to count the open-mouth and closed-mouth pistachios in videos. At the first stage, we have to generate the frames of the video and detect the pistachios in them with RetinaNet.
 
