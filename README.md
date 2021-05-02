@@ -2,7 +2,8 @@
 
 Pistachios are nutritious nuts that are sorted based on the shape of their shell into two categories: Open-mouth and Closed-mouth. The open-mouth pistachios are higher in price, value, and demand than the closed-mouth pistachios. Because of these differences, it is considerable for production companies to precisely count the number of each kind. This paper aims to propose a new system for counting the different types of pistachios with computer vision. We have introduced and shared a new dataset of pistachios, including six videos with a total length of 167 seconds and 3927 labeled pistachios. Unlike many other works, our model counts pistachios in videos, not images. Counting objects in videos need assigning each object between the video frames so that each object be counted once. The main two challenges in our work are the existence of pistachios’ occlusion and deformation of pistachios in different frames because open-mouth pistachios that move and roll on the transportation line may appear as closed-mouth in some frames and open-mouth in other frames. Our novel model first is trained on the RetinaNet object detector network using our dataset to detect different types of pistachios in video frames. After gathering the detections, we apply them to a new counter algorithm based on a new tracker to assign pistachios in consecutive frames with high accuracy. Our model is able to assign pistachios that turn and change their appearance (e.g., open-mouth pistachios that look closed-mouth) to each other so does not count them incorrectly. Our algorithm performs very fast and achieves good counting results. The computed accuracy of our algorithm on six videos (9486 frames) is 94.75%.
 
-Pesteh-set is available on https://github.com/mr7495/Pesteh-Set
+The dataset (Pesteh-set) is available on https://github.com/mr7495/Pesteh-Set
+
 
 **Working Environment:**
 ```
@@ -102,7 +103,7 @@ https://arxiv.org/abs/2005.03990
 
 https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset_and_Method_for_Detecting_and_Counting_the_Pistachios_based_on_Deep_Learning?channel=doi&linkId=5eb2a80f299bf152d69dd252&showFulltext=true
 
-If you find our work useful, you can cite it by:
+If you find our work useful, please cite it by:
 ```
 @article{rahimzadeh2020detecting,
   title={Detecting and Counting Pistachios based on Deep Learning},
