@@ -1,10 +1,6 @@
 # Introduction of a new Dataset and Method for Detecting and Counting Pistachios based on Deep Learning
 
-Pistachio is a nutritious nut that has many uses in the food industry. Iran is one of its largest producers, and pistachio is considered as a strategic export product for this country. This product has a great variety, most of which are cultivated in Iran and taken to other countries. Pistachios are sorted based on the shape of their shell into two categories: Open-mouth and Closed-mouth. The open-mouth pistachios are higher in price, value, and demand than the closed-mouth pistachios.
-In the countries that are famous in pistachio production and exporting, there are companies that pack the picked pistachios from the trees and make them ready for exporting. As there are differences between the price and the demand of the open-mouth and closed-mouth pistachios, it is considerable for these companies to know precisely how much of these two kinds of pistachios exist in each packed package. In this paper, we have introduced and shared a new dataset of pistachios, which is called Pesteh-Set. This dataset is prepared by a company in Iran and has been recorded from a cell-phone camera above the line that transported the pistachios.
-Pesteh-Set includes 6 videos with a total length of 167 seconds and 561 moving pistachios. It also contains 423 labeled images that totally include 3927 labeled pistachios. At the first stage, we have used RetinaNet, the deep fully convolutional object detector for detecting the pistachios in the video frames. In the second stage, we introduce our method for counting the open-mouth and closed-mouth pistachios in the videos. Pistachios that move and roll on the transportation line may appear as closed-mouth in some frames and as open-mouth in other frames. With this circumstance, the main challenge of our work is to count these two kinds of pistachios correctly and fast.
-Our introduced method performs very fast with no need for GPU, and it also achieves good counting results. The computed accuracy of our counting method is 94.75%.
-Our introduced methods can be remotely performed by using the videos taken from the implemented cameras that could monitor the pistachios.
+Pistachios are nutritious nuts that are sorted based on the shape of their shell into two categories: Open-mouth and Closed-mouth. The open-mouth pistachios are higher in price, value, and demand than the closed-mouth pistachios. Because of these differences, it is considerable for production companies to precisely count the number of each kind. This paper aims to propose a new system for counting the different types of pistachios with computer vision. We have introduced and shared a new dataset of pistachios, including six videos with a total length of 167 seconds and 3927 labeled pistachios. Unlike many other works, our model counts pistachios in videos, not images. Counting objects in videos need assigning each object between the video frames so that each object be counted once. The main two challenges in our work are the existence of pistachios’ occlusion and deformation of pistachios in different frames because open-mouth pistachios that move and roll on the transportation line may appear as closed-mouth in some frames and open-mouth in other frames. Our novel model first is trained on the RetinaNet object detector network using our dataset to detect different types of pistachios in video frames. After gathering the detections, we apply them to a new counter algorithm based on a new tracker to assign pistachios in consecutive frames with high accuracy. Our model is able to assign pistachios that turn and change their appearance (e.g., open-mouth pistachios that look closed-mouth) to each other so does not count them incorrectly. Our algorithm performs very fast and achieves good counting results. The computed accuracy of our algorithm on six videos (9486 frames) is 94.75%.
 
 Pesteh-set is available on https://github.com/mr7495/Pesteh-Set
 
@@ -108,13 +104,11 @@ https://www.researchgate.net/publication/341180408_Introduction_of_a_new_Dataset
 
 If you find our work useful, you can cite it by:
 ```
-@misc{rahimzadeh2020introduction,
-    title={Introduction of a new Dataset and Method for Detecting and Counting the Pistachios based on Deep Learning},
-    author={Mohammad Rahimzadeh and Abolfazl Attar},
-    year={2020},
-    eprint={2005.03990},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@article{rahimzadeh2020detecting,
+  title={Detecting and Counting Pistachios based on Deep Learning},
+  author={Rahimzadeh, Mohammad and Attar, Abolfazl},
+  journal={arXiv preprint arXiv:2005.03990},
+  year={2020}
 }
 ```
 
