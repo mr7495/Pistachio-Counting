@@ -5,6 +5,7 @@ Pistachios are nutritious nuts that are sorted based on the shape of their shell
 
 **The dataset (Pesteh-set) is available at https://www.kaggle.com/mohammadrahimzadeh/pistachios**</br>
 source paper: [arxiv.org/abs/2005.03990](https://arxiv.org/abs/2005.03990)</br>
+Published paper: [10.1007/s42044-021-00090-6](https://doi.org/10.1007/s42044-021-00090-6)</br>
 The dataset is fully explained at https://github.com/mr7495/Pesteh-Set
 
 
