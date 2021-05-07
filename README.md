@@ -104,7 +104,7 @@ ResNet50 | 409| 152 | 397 | 145 | 11| 94.75
 ResNet152 | 409| 152 | 386 | 152 | 24 | 91.96
 VGG16 | 409| 152 | 395 | 149 | 37 | 90.96
 
-**The paper is published as a pre-print on:**<br /> 
+**The paper is published as at:**<br /> 
 https://arxiv.org/abs/2005.03990
 
 https://doi.org/10.1007/s42044-021-00090-6
